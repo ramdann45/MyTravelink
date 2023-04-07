@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../../../img/favicon.ico" type="image/x-icon">
+	  <link rel="apple-touch-icon" href="../../../img/favicon.ico">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a6c10de6b5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="parents.css">
+    <link rel="stylesheet" href="body.css">
+
+    <title>My Travelink | PAKET TOUR RAJA AMPAT</title>
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="page-bg"></div>
+
+    <div class="preloader">
+        <div class="preloader-box">
+            <div>L</div>
+            <div>O</div>
+            <div>A</div>
+            <div>D</div>
+            <div>I</div>
+            <div>N</div>
+            <div>G</div>
+        </div>
+    </div>
+
+    <a class="btn-whatsapp-pulse" data-bs-toggle="tooltip" data-bs-placement="left" title="Info paket perjalanan? Hubungi kami!">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Navbar -->
+    <header id="header">
+        <div class="row mx-auto nav-dek">
+            <div class="col-12 item nav">
+                <ul class="my-auto">
+                    <li>
+                        <a href="../../../index.html" class="par"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="../../../about-us.html" class="par"><i class="fa-solid fa-users"></i> About Us</a>
+                    </li>
+                    <li>
+                        <img src="../../../img/logo mytravelink.png" class="img-fluid" width="250" alt="MyTravelink">
+                    </li>
+                    <li class="product">
+                        <a href="" class="par active"><i class="fa-solid fa-box"></i> Product <i class="bi bi-chevron-right"></i></a>
+                        <ul class="dropdown">
+                            <li class="tour">
+                                <a href=""><i class="fa-solid fa-plane-departure"></i> Tour <i class="bi bi-caret-right"></i></a>
+                                <ul class="dropdown-tour">
+                                    <li>
+                                        <a href="../../tour-domestic.html"><i class="fa-solid fa-suitcase-rolling"></i> Tour Domestic</a>
+                                    </li>
+                                    <li>
+                                        <a href="../../tour-international.html"><i class="fa-solid fa-cart-flatbed-suitcase"></i> Tour International</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-kaaba"></i> Umroh Plus</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-hotel"></i> Reservasi Hotel</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-ticket"></i> Ticketing &amp; Admisson</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-notes-medical"></i> Travel Insurance</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-truck-plane"></i> Trasportation</a>
+                            </li>
+                            <li class="document">
+                                <a href=""><i class="fa-solid fa-file"></i> Travel Document <i class="bi bi-caret-right"></i></a>
+                                <ul class="dropdown-document">
+                                    <li>
+                                        <a href=""><i class="fa-brands fa-cc-visa"></i> Visa</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa-solid fa-passport"></i> Passport</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../../../gallery.html" class="par"><i class="bi bi-images"></i> Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #007bb7;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../../../img/logo mytravelink.png" class="img-fluid" width="170" alt="MyTravelink">
+              </a>
+              <button class="navbar-toggler bg-light" style="font-size: small;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about-us.html"><i class="fa-solid fa-users"></i> About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-box"></i> Produk</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a style="cursor: pointer;" id="tour" class="dropdown-item"><i class="fa-solid fa-plane-departure"></i> Tour</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-kaaba"></i> Umroh Plus</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-hotel"></i> Reservasi Hotel</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-ticket"></i> Ticketing &amp; Admisson</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-notes-medical"></i> Travel Insurance</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-truck-plane"></i> Trasportation</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-file"></i> Travel Document</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+
+      <div class="alert-tour">
+        <button type="submit" id="close-btn-tour"><i class="bi bi-x-circle-fill"></i></button>
+
+        <div class="row mx-auto">
+            <div class="col-12">
+                <a href="../../tour-domestic.html">
+                    <img src="../../../img/domestic.jpg" class="img-fluid" alt="Tour Domestic">
+                </a>
+            </div>
+            <div class="col-12">
+                <a href="../../tour-international.html">
+                    <img src="../../../img/international.jpg" class="img-fluid" alt="Tour International">
+                </a>
+            </div>
+        </div>
+      </div>
+
+        <div class="core mx-auto">
+            <div class="row mx-auto container">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <h1 style="font-family: 'Secular One', sans-serif;" class="my-4">PAKET TOUR RAJA AMPAT 4D3N - MyTravelink</h1>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/papua/raja-ampat-2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../img/papua/raja-ampat.jpg" class="d-block w-100" alt="...">
+                              </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="accordion js-accordion">
+                        <div class="accordion__item js-accordion-item active">
+                          <div class="accordion-header js-accordion-header">Day 1 : ARRIVAL SORONG – WAISAI – KABUI – BATU PENSIL- MANYAIFUN / FRIWEN [L,D]</div> 
+                        <div class="accordion-body js-accordion-body">
+                          <div class="accordion-body__contents">
+                            <h6 style="text-align: justify;">
+                                Team mytravelink menjemput di Bandara Sorong / Hotel, untuk selanjutnya menujuPelabuhan Rakyat
+                                Sorong untuk ikut ferry pukul menuju Waisai. Tiba di Waisai langsung kunjunganke FRIWEN WALL,
+                                FRIWEN KAMPUNG kemudian makan siang lalu check in penginapan. Setelah chek in wisatawan di berikan
+                                Free time.wisatawan kumpul di titik kumpul yang telah di tentukan untuk makan malam
+                            </h6>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">Day 2 : FULL DAY WAYAG [B,L,D]</div> 
+                          <div class="accordion-body js-accordion-body">
+                            <div class="accordion-body__contents">
+                              <h6 style="text-align: justify;">
+                                Makan pagi di penginapan, kunjungan wisata ke Puncak Wayag 2 (Trekking), Puncak Wayag 1 (Trekking) dan Pos Konservasi Wayag,lalu wisatawan di beri lunch box.setelah makan siang wisatawan (Snorkeling/Swimming). Sore hari kembali ke penginapan. Lalau wisatawan makan malam dan di berikan waktu free time
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">Day 3 : PIAYNEMO + SNORKELING TOUR [B,L,D]</div> 
+                          <div class="accordion-body js-accordion-body">
+                            <div class="accordion-body__contents">
+                              <h6 style="text-align: justify;">
+                                Makan pagi di penginapan, Selanjutnya menuju Piaynemo (Trekking), Laguna Bintang (Trekking), Menuju Sawendarek (Snorkeling), Yenbuba (Snorkeling), Pasir Timbul (Foto).( Makan siang lunch box) lalu Wisatawan kembali ke penginapan untuk makan malam setelah makan malam wisatawan di berikan Free time.
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion__item js-accordion-item">
+                          <div class="accordion-header js-accordion-header">Day 4 : CITY TOUR WAISAI – SORONG (B)</div> 
+                        <div class="accordion-body js-accordion-body">
+                          <div class="accordion-body__contents">
+                            <h6 style="text-align: justify;">
+                                Makan pagi di penginapan, selanjutnya city tour Waisai dengan mengunjungi Pantai WTC (Foto), Tugu
+                                Kota Waisai (Foto), kemudian di dropp di Pelabuhan Waisai untuk kembali ke Sorong menggunakan ferry.
+                                Tiba di Sorong diantar ke tempat oleh-oleh dan kemudian diantarmenuju Bandara / hotel. Dan trip selesai.
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>  
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="box-form">
+                        <h1>Booking Tour</h1>
+                        <p class="mb-5">Anda juga bisa request booking dengan mengisi form berikut:</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Nama</label>
+                                <input type="input" class="form-control" id="exampleInputPassword1" placeholder="MyTravelink">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">No.Telp/WA Aktif</label>
+                                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="0877xxxxxxxx">
+                              </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="mytravelink@gmail.com">
+                              <div id="emailHelp" class="form-text">Kami tidak akan pernah membagikan email Anda kepada orang lain.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Tambahan</label>
+                                <textarea placeholder="Isikan informasi tambahan yang ingin disampaikan seperti request dll..." class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-primary">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center align-items-center mt-5">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=6287827707222&text=Hallo%20admin%20mytravelink,%20saya%20ingin%20bertanya" class="btn btn-success px-3"><i class="bi bi-whatsapp"></i> Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ketentuan">
+            <div class="naccs container">
+                    <div class="grid">
+                    <div class="gc gc--1-of-3">
+                    <div class="menu">
+                        <div class="active"><span class="light"></span><span>Ketentuan Umum &amp; Syarat Pendaftaran</span></div>
+                        <div><span class="light"></span><span>Pendaftaran &amp; Pembayaran</span></div>
+                        <div><span class="light"></span><span>Deviasi</span></div>
+                        <div><span class="light"></span><span>Pembatalan</span></div>
+                        <div><span class="light"></span><span>Pengembalian Uang</span></div>
+                    </div>
+                    </div>
+                    <div class="gc gc--2-of-3">
+                    <ul class="nacc">
+                        <li class="active">
+                        <div>
+                            <p>
+                                1.Membaca ketentuan dan formulir pendaftaran mengisi <br>
+                                2.Membayar DP (DownPayment) non refundable <br>
+                                3.Membayar Pelunasan H-30 sebelum keberangkatan <br>
+                                4.Penyerahan Pasport dengan masa berlaku 7 bulan sebelum keberangkatan <br>
+                                5.Fotocopy KTP dan nomor telepon yang dapat dihubungi <br>
+                                6.Paspoto berwarna ukr 4 x 6 = 8 lembar* <br>
+                                7.Mengisi form visa dan ketentuan dari pihak Kedutaan Negara yang dituju Syarat – Syarat dan Ketentuan Perjalanan Ini
+                            </p>
+                        </div>
+                        </li>
+                        <li>
+                        <div>
+                        <p>
+                                1.Uang muka pendaftaran yang dibayarkan kepada PT. Mitra Travelindo Kuantum (“Pihak Tours &amp; Travel”) tidak dapat dikembalikan (down payment non-refundable) <br>
+                                2.Peserta bersedia memenuhi kelengkapan persyaratan dokumen sesuai jadwal dan ketentuan dari pihak Kedutaan Negara yang dituju. <br>
+                                3.Biaya visa tetap harus dibayarkan walaupun visa tidak disetujui oleh Kedutaan, demikian juga jika terdapat biaya lain seperti pembatalan Hotel, kereta dan atau tiket pesawat yang terjadi karena adanya tenggat waktu yang belum tentu sesuai dengan waktu penyelesaian proses visa dari Kedutaan, dan biaya tour lainnya maka akan dibebankan kepada Peserta tour. <br>
+                                4.Pendaftaran tanpa disertai deposit bersifat tidak mengikat dan dapat dibatalkan tanpa pemberitahuan terlebih dahulu kepada Peserta. <br>
+                                5.Pelunasan biaya tour dilakukan 60 hari sebelum tanggal keberangkatan. <br>
+                                6.Pendaftaran yang dilakukan kurang dari 60 hari sebelum tanggal keberangkatan harus langsung dibayar lunas. <br>
+                                7.Bagi pendaftar yang berusia di atas 70 tahun atau memiliki keterbatasan fungsi anggota tubuh atau indera atau keterbatasan secara mental, wajib didampingi oleh anggota keluarga, teman atau saudara yang akan bertanggung jawab selama perjalanan tour.
+                        </p>
+                        </div>
+                        </li>
+                        <li>
+                        <div>
+                            <p>
+                                (Deviasi; Perubahan, perpanjangan, penambahan/penyimpanganruteperjalanan di luarruteperjalanan yang telahdijadwalkanolehPihak Tours & Travel)
+                                <br>
+                                1.Deviasi dapat diproses apabila sudah melakukan deposit dan melampirkan fotokopi paspor. <br>
+                                2.Deviasi dapat dilakukan apabila jumlah Peserta yang berangkat dan yang pulang telah memenuhi kuota dari ketentuan maskapai penerbangan. <br>
+                                3.Biaya visa tetap harus dibayarkan walaupun visa tidak disetujui oleh Kedutaan, demikian juga jika terdapat biaya lain seperti pembatalan Hotel, kereta dan atau tiket pesawat yang terjadi karena adanya tenggat waktu yang belum tentu sesuai dengan waktu penyelesaian proses visa dari Kedutaan, dan biaya tour lainnya maka akan dibebankan kepada Peserta tour. <br>
+                                4.Pihak Tours & Travel tidak menjamin konfirmasi pesawat, Hotel dan sebagainya bila Peserta menghendaki perpanjangan jadwal paket tour. <br>
+                                5.Apabila permintaan deviasi tidak dapat disetujui oleh pihak maskapai penerbangan maka Peserta secara otomatis akan kembali ke jadwal semula. <br>
+                                6.Deviasi yang akan mempersingkat jadwal paket tour, tidak diberikan pengurangan biaya dari biaya paket standar semula. <br>
+                            </p>
+                        </div>
+                        </li>
+                        <li>
+                            <div>
+                            <p>
+                                Jika terjadi pembatalan acara tour oleh Peserta sebelum tanggal keberangkatan maka biaya pembatalan adalah sebagai berikut : <br><br>
+                                <strong>Setelah pendaftaran: Down Payment (Non Refundable)</strong> <br>
+                                – 30-15 hari kalender sebelum tanggal keberangkatan: 15% dari biaya tour <br>
+                                – 14-07 hari kalender sebelum tanggal keberangkatan: 5% dari biaya tour <br>
+                                – 06-00 hari kalender sebelum tanggal keberangkatan: 0% dari biaya tour
+                                <br><br>
+
+                                <strong>Biaya pembatalan di atas juga berlaku bagi:</strong> <br>
+                                – Peserta yang mengganti tanggal keberangkatan atau mengganti paket/jenis tour. <br>
+                                – Peserta yang terlambat memberikan persyaratan visa dari batas waktu yang telah di tentukan PihakTours & Travel dan mengakibatkan Peserta tidak dapat berangkat tepat pada waktunya karena permohonan visa nya masih diperoses oleh Kedutaan. <br>
+                                – Pembatalan yang dilakukan oleh salah satu pihak (Peserta atau Pihak Tours & Travel) karena bencana alam, perang, wabah penyakit, aksi teroris atau keadaan ‘Force Majeure’ lainnya, maka ketentuan-ketentuan di atas dapat berubah sewaktu-waktu tanpa pemberitahuan terlebih dahulu, tergantung dari
+                                <br><br>
+
+                                <strong>Kebijakan pihak airlines, Hotel dan agen di luar negeri.</strong> <br>
+                                – Force Majeure, suatu kejadian yang terjadi di luar kemampuan manusia dan tidak dapat dihindarkan sehingga suatu kegiatan tidak dapat dilaksanakan sebagaimana mestinya. <br>
+                                – Pihak Tours & Travel berhak membatalkan pendaftaran Peserta tour yang belum membayar uang muka
+                                atau pelunasan sesuai batas waktu yang telah ditentukan Pihak Tours & Travel. <br>
+                                – Bila permohonan visa ditolak, sedangkan tiket sudah diterbitkan sebelum permohonan visa disetujui, karena keharusan sehubungan dengan tenggat waktu yang ditentukan perusahaan penerbangan (airlines), maka biaya visa tidak dapat dikembalikan dan Peserta tetap dikenakan denda pembatalan dan administrasi sesuai dengan kondisi terkait pihak airlines, Hotel dan agen di luar negeri. <br>
+                                – Uang muka pendaftaran Peserta tidak dapat dikembalikan bila Peserta melakukan pembatalan secara sepihak.
+                            </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <p>
+                                1.Tiket pesawat udara, kereta api, dan transportasi lainnya serta akomodasi yang tidak terpakai tidak dapat diuangkan kembali (non-refundable).
+                                <br><br>
+                                2.Bila calon Peserta tour berhalangan/sakit sebelum tanggal keberangkatan yang dijadwalkan maka pengembalian uang/biaya pembatalan, akan mengacu kepada pasal pembatalan.
+                                <br><br>
+                                3.Bila ada pelayanan dalam paket yang tidak digunakan oleh para peserta dikarenakan berhalangan atau sakit selama perjalanan, para Peserta tidak berhak menuntut uang kembali.
+                                <br><br>
+                                Bagi Peserta tour yang tidak diijinkan masuk atau dikenakan tindakan deportasi oleh pihak imigrasi Negara setempat (walaupun sudah memiliki visa), atau yang ditolak oleh perusahaan penerbangan, atau dalam perjalanan menderita sakit, atau ada kelainan jiwa, atau dalam perjalanan mengalami kecelakaan, atau terpaksa harus kembali atau menyimpang dari perjalanan yang telah ditentukan dalam acara tour, atau terpaksa membatalkan sebagian/hamper seluruh perjalanan setelah keberangkatan, tidak berhak atas pengembalian uang atau bentuk pengembalian lain apapun atas jasa-jasa yang belum atau tidak digunakan
+                            </p>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="accordion js-accordion" id="acc-mobile">
+              <div class="accordion__item js-accordion-item">
+                <div class="accordion-header js-accordion-header">Ketentuan Umum &amp; Syarat Pendaftaran</div> 
+              <div class="accordion-body js-accordion-body">
+                <div class="accordion-body__contents">
+                  <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">Membaca ketentuan dan formulir pendaftaran mengisi</li>
+                    <li class="list-group-item">Membayar DP (DownPayment) non refundable</li>
+                    <li class="list-group-item">Membayar Pelunasan H-30 sebelum keberangkatan</li>
+                    <li class="list-group-item">Penyerahan Pasport dengan masa berlaku 7 bulan sebelum keberangkatan</li>
+                    <li class="list-group-item">Fotocopy KTP dan nomor telepon yang dapat dihubungi</li>
+                    <li class="list-group-item">Paspoto berwarna ukr 4 x 6 = 8 lembar*</li>
+                    <li class="list-group-item">Mengisi form visa dan ketentuan dari pihak Kedutaan Negara yang dituju Syarat – Syarat dan Ketentuan Perjalanan Ini</li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+              <div class="accordion__item js-accordion-item">
+                  <div class="accordion-header js-accordion-header">Pendaftaran &amp; Pembayaran</div> 
+                  <div class="accordion-body js-accordion-body">
+                      <div class="accordion-body__contents">
+                        <ul class="list-group list-group-numbered">
+                          <li class="list-group-item">Uang muka pendaftaran yang dibayarkan kepada PT. Mitra Travelindo Kuantum (“Pihak Tours &amp; Travel”) tidak dapat dikembalikan (down payment non-refundable) </li>
+                          <li class="list-group-item">Peserta bersedia memenuhi kelengkapan persyaratan dokumen sesuai jadwal dan ketentuan dari pihak Kedutaan Negara yang dituju.</li>
+                          <li class="list-group-item">Biaya visa tetap harus dibayarkan walaupun visa tidak disetujui oleh Kedutaan, demikian juga jika terdapat biaya lain seperti pembatalan Hotel, kereta dan atau tiket pesawat yang terjadi karena adanya tenggat waktu yang belum tentu sesuai dengan waktu penyelesaian proses visa dari Kedutaan, dan biaya tour lainnya maka akan dibebankan kepada Peserta tour.</li>
+                          <li class="list-group-item">Pendaftaran tanpa disertai deposit bersifat tidak mengikat dan dapat dibatalkan tanpa pemberitahuan terlebih dahulu kepada Peserta.</li>
+                          <li class="list-group-item">Pelunasan biaya tour dilakukan 60 hari sebelum tanggal keberangkatan.</li>
+                          <li class="list-group-item">Pendaftaran yang dilakukan kurang dari 60 hari sebelum tanggal keberangkatan harus langsung dibayar lunas.</li>
+                          <li class="list-group-item">Bagi pendaftar yang berusia di atas 70 tahun atau memiliki keterbatasan fungsi anggota tubuh atau indera atau keterbatasan secara mental, wajib didampingi oleh anggota keluarga, teman atau saudara yang akan bertanggung jawab selama perjalanan tour.</li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion__item js-accordion-item">
+                  <div class="accordion-header js-accordion-header">Deviasi</div> 
+                <div class="accordion-body js-accordion-body">
+                  <div class="accordion-body__contents">
+                    <ul class="list-group list-group-numbered">
+                      <h6 style="font-size: large; text-align: justify;">(Deviasi; Perubahan, perpanjangan, penambahan/penyimpangan rute perjalanan di luar rute perjalanan yang telah di jadwalkan oleh Pihak Tours & Travel)</h6>
+                      <li class="list-group-item">Deviasi dapat diproses apabila sudah melakukan deposit dan melampirkan fotokopi paspor.</li>
+                      <li class="list-group-item">Deviasi dapat dilakukan apabila jumlah Peserta yang berangkat dan yang pulang telah memenuhi kuota dari ketentuan maskapai penerbangan.</li>
+                      <li class="list-group-item">Biaya visa tetap harus dibayarkan walaupun visa tidak disetujui oleh Kedutaan, demikian juga jika terdapat biaya lain seperti pembatalan Hotel, kereta dan atau tiket pesawat yang terjadi karena adanya tenggat waktu yang belum tentu sesuai dengan waktu penyelesaian proses visa dari Kedutaan, dan biaya tour lainnya maka akan dibebankan kepada Peserta tour.</li>
+                      <li class="list-group-item">Pihak Tours & Travel tidak menjamin konfirmasi pesawat, Hotel dan sebagainya bila Peserta menghendaki perpanjangan jadwal paket tour.</li>
+                      <li class="list-group-item">Apabila permintaan deviasi tidak dapat disetujui oleh pihak maskapai penerbangan maka Peserta secara otomatis akan kembali ke jadwal semula.</li>
+                      <li class="list-group-item">Deviasi yang akan mempersingkat jadwal paket tour, tidak diberikan pengurangan biaya dari biaya paket standar semula.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion__item js-accordion-item">
+                  <div class="accordion-header js-accordion-header">Pembatalan</div> 
+                <div class="accordion-body js-accordion-body">
+                  <div class="accordion-body__contents">
+                    <h6 style="font-size: large;">Jika terjadi pembatalan acara tour oleh Peserta sebelum tanggal keberangkatan maka biaya pembatalan adalah sebagai berikut : </h6>
+
+                    <ul class="list-group list-group-numbered">
+                      <p><strong>Setelah pendaftaran: Down Payment (Non Refundable)</strong></p>
+                      <li class="list-group-item">30-15 hari kalender sebelum tanggal keberangkatan: 15% dari biaya tour</li>
+                      <li class="list-group-item">14-07 hari kalender sebelum tanggal keberangkatan: 5% dari biaya tour</li>
+                      <li class="list-group-item">06-00 hari kalender sebelum tanggal keberangkatan: 0% dari biaya tour</li>
+                    </ul>
+
+                    <ul class="list-group list-group-numbered mt-2">
+                      <p><strong>Biaya pembatalan di atas juga berlaku bagi:</strong></p>
+                      <li class="list-group-item">Peserta yang mengganti tanggal keberangkatan atau mengganti paket/jenis tour</li>
+                      <li class="list-group-item">Peserta yang terlambat memberikan persyaratan visa dari batas waktu yang telah di tentukan PihakTours & Travel dan mengakibatkan Peserta tidak dapat berangkat tepat pada waktunya karena permohonan visa nya masih diperoses oleh Kedutaan</li>
+                      <li class="list-group-item">Pembatalan yang dilakukan oleh salah satu pihak (Peserta atau Pihak Tours & Travel) karena bencana alam, perang, wabah penyakit, aksi teroris atau keadaan ‘Force Majeure’ lainnya, maka ketentuan-ketentuan di atas dapat berubah sewaktu-waktu tanpa pemberitahuan terlebih dahulu, tergantung dari</li>
+                    </ul>
+
+                    <ul class="list-group list-group-numbered mt-2">
+                      <p><strong>Kebijakan pihak airlines, Hotel dan agen di luar negeri.</strong></p>
+                      <li class="list-group-item">Force Majeure, suatu kejadian yang terjadi di luar kemampuan manusia dan tidak dapat dihindarkan sehingga suatu kegiatan tidak dapat dilaksanakan sebagaimana mestinya</li>
+                      <li class="list-group-item">Pihak Tours & Travel berhak membatalkan pendaftaran Peserta tour yang belum membayar uang muka atau pelunasan sesuai batas waktu yang telah ditentukan Pihak Tours & Travel</li>
+                      <li class="list-group-item">Bila permohonan visa ditolak, sedangkan tiket sudah diterbitkan sebelum permohonan visa disetujui, karena keharusan sehubungan dengan tenggat waktu yang ditentukan perusahaan penerbangan (airlines), maka biaya visa tidak dapat dikembalikan dan Peserta tetap dikenakan denda pembatalan dan administrasi sesuai dengan kondisi terkait pihak airlines, Hotel dan agen di luar negeri</li>
+                      <li class="list-group-item">Uang muka pendaftaran Peserta tidak dapat dikembalikan bila Peserta melakukan pembatalan secara sepihak</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion__item js-accordion-item">
+                  <div class="accordion-header js-accordion-header">Pengembalian Uang</div> 
+                <div class="accordion-body js-accordion-body">
+                  <div class="accordion-body__contents">
+                    <ul class="list-group list-group-numbered">
+                      <li class="list-group-item">Tiket pesawat udara, kereta api, dan transportasi lainnya serta akomodasi yang tidak terpakai tidak dapat diuangkan kembali (non-refundable)</li>
+                      <li class="list-group-item">Bila calon Peserta tour berhalangan/sakit sebelum tanggal keberangkatan yang dijadwalkan maka pengembalian uang/biaya pembatalan, akan mengacu kepada pasal pembatalan</li>
+                      <li class="list-group-item">Bila ada pelayanan dalam paket yang tidak digunakan oleh para peserta dikarenakan berhalangan atau sakit selama perjalanan, para Peserta tidak berhak menuntut uang kembali</li>
+
+                      <p style="text-align: justify; margin-top: 10px;">Bagi Peserta tour yang tidak diijinkan masuk atau dikenakan tindakan deportasi oleh pihak imigrasi Negara setempat (walaupun sudah memiliki visa), atau yang ditolak oleh perusahaan penerbangan, atau dalam perjalanan menderita sakit, atau ada kelainan jiwa, atau dalam perjalanan mengalami kecelakaan, atau terpaksa harus kembali atau menyimpang dari perjalanan yang telah ditentukan dalam acara tour, atau terpaksa membatalkan sebagian/hamper seluruh perjalanan setelah keberangkatan, tidak berhak atas pengembalian uang atau bentuk pengembalian lain apapun atas jasa-jasa yang belum atau tidak digunakan</p>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div> 
+        </div>
+        
+        <footer class="mainfooter" role="contentinfo">
+            <div class="footer-middle">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Contact Us</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#"><i class="bi bi-telephone"></i> 087827707222</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-envelope"></i> mytravelink.id@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-geo-alt"></i> Jl. Pamanukan No.12, Antapani Kulon, Kec. Antapani, Kota Bandung - Jawa Barat 40291</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Popular Explore</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="../bali.html">Bali</a></li>
+                      <li><a href="../lombok.html">Lombok</a></li>
+                      <li><a href="../sumba.html">Sumba</a></li>
+                      <li><a href="../../paket-international/japan.html">Japan</a></li>
+                      <li><a href="../../paket-international/turkey.html">Turki</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Useful</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="../../../index.html">Home</a></li>
+                        <li><a href="../../../about-us.html">About Us</a></li>
+                        <li><a href="../../../gallery.html">Gallery</a></li>
+                    </ul>
+                  </div>
+                </div>
+                  <div class="col-sm-6 col-lg-3 mb-4">
+                      <h4>Follow Us</h4>
+                      <ul class="social-network social-circle">
+                       <li><a target="_blank" href="https://id-id.facebook.com/Mytravelink.indonesia/" class="icoFacebook" title="Mytravelink Indonesia"><i class="fa fa-facebook"></i></a></li>
+                       <li><a target="_blank" href="https://www.tiktok.com/@mytravelink" class="icoTiktok" title="@mytravelink"><i class="fa-brands fa-tiktok"></i></a></li>
+                       <li><a target="_blank" href="https://www.instagram.com/mytravelink/" class="icoInstagram" title="mytravelink"><i class="fa-brands fa-instagram"></i></a></li>
+                       <li><a target="_blank" href="https://www.youtube.com/channel/UC_UwHs4YcOSPy9aofhBcuVg" class="icoYoutube" title="mytravelink"><i class="fa-brands fa-youtube"></i></a></li>
+                      </ul>				
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 copy">
+                      <p class="text-center">&copy; Copyright 2022 - MyTravelink. All rights reserved.</p>
+                  </div>
+              </div>
+          
+          
+            </div>
+            </div>
+        </footer>
+
+        <div class="alert-wa">
+            <div class="atas">
+                <span class="close"><i class="bi bi-x-circle"></i></span>
+
+                <img src="../../../img/cs.png" class="img-fluid" alt="">
+                <p>Dengan senang hati membantu Anda. Bila ada pertanyaan jangan ragu untuk bertanya kepada Kami. Klik di bawah ini untuk memulai chat</p>
+            </div>
+            <div class="bawah row mx-auto">
+                <div class="col-12 cs-1">
+                    <img src="../../../img/whatsapp.png" class="img-fluid" alt="">
+                    <div class="kontak">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=6287827707222&text=Hallo%20admin%20mytravelink,%20saya%20ingin%20bertanya">
+                            <p>Admin MyTravelink</p>
+                            <p>Online <i class="bi bi-record-fill"></i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- Bootstrap Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Custom js -->
+<script src="../../../script.js"></script>
+
+<!-- LOADING -->
+<script>
+    $(window).on("load", function(){
+        $(".page-bg").delay(2000).fadeOut("slow");
+        $(".preloader").delay(2000).fadeOut("slow");
+    });
+
+    let accordion = (function(){
+  
+    let $accordion = $('.js-accordion');
+    let $accordion_header = $accordion.find('.js-accordion-header');
+    let $accordion_item = $('.js-accordion-item');
+ 
+  // default settings 
+  let settings = {
+    // animation speed
+    speed: 400,
+    
+    // close all other accordion items if true
+    oneOpen: false
+  };
+    
+  return {
+    // pass configurable object literal
+    init: function($settings) {
+      $accordion_header.on('click', function() {
+        accordion.toggle($(this));
+      });
+      
+      $.extend(settings, $settings); 
+      
+      // ensure only one accordion is active if oneOpen is true
+      if(settings.oneOpen && $('.js-accordion-item.active').length > 1) {
+        $('.js-accordion-item.active:not(:first)').removeClass('active');
+      }
+      
+      // reveal the active accordion bodies
+      $('.js-accordion-item.active').find('> .js-accordion-body').show();
+    },
+    toggle: function($this) {
+            
+      if(settings.oneOpen && $this[0] != $this.closest('.js-accordion').find('> .js-accordion-item.active > .js-accordion-header')[0]) {
+        $this.closest('.js-accordion')
+               .find('> .js-accordion-item') 
+               .removeClass('active')
+               .find('.js-accordion-body')
+               .slideUp()
+      }
+      
+      // show/hide the clicked accordion item
+      $this.closest('.js-accordion-item').toggleClass('active');
+      $this.next().stop().slideToggle(settings.speed);
+    }
+  }
+})();
+
+$(document).ready(function(){
+  accordion.init({ speed: 300, oneOpen: true });
+});
+
+$(document).on("click", ".naccs .menu div", function() {
+	var numberIndex = $(this).index();
+
+	if (!$(this).is("active")) {
+		$(".naccs .menu div").removeClass("active");
+		$(".naccs ul li").removeClass("active");
+
+		$(this).addClass("active");
+		$(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+		var listItemHeight = $(".naccs ul")
+			.find("li:eq(" + numberIndex + ")")
+			.innerHeight();
+		$(".naccs ul").height(listItemHeight + "px");
+	}
+
+    const items = document.querySelectorAll(".accordion button");
+
+        function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+        
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+        
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+        }
+
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+        });
+        
+</script>
+
+<!-- TOOLTIP -->
+<script>
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+
+<!-- <script src="../js/home.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon.ico">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a6c10de6b5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/parents.css">
+    <link rel="stylesheet" href="css/about-us.css">
+
+    <title>My Travelink | ABOUT US</title>
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="page-bg"></div>
+
+    <div class="preloader">
+        <div class="preloader-box">
+            <div>L</div>
+            <div>O</div>
+            <div>A</div>
+            <div>D</div>
+            <div>I</div>
+            <div>N</div>
+            <div>G</div>
+        </div>
+    </div>
+
+    <a class="btn-whatsapp-pulse" data-bs-toggle="tooltip" data-bs-placement="left" title="Info paket perjalanan? Hubungi kami!">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Navbar -->
+    <header id="header">
+        <div class="row mx-auto nav-dek">
+            <div class="col-12 item nav">
+                <ul class="my-auto">
+                    <li>
+                        <a href="index.html" class="par"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="active par"><i class="fa-solid fa-users"></i> About Us</a>
+                    </li>
+                    <li>
+                        <img src="img/logo mytravelink.png" class="img-fluid" width="250" alt="MyTravelink">
+                    </li>
+                    <li class="product">
+                        <a href="" class="par"><i class="fa-solid fa-box"></i> Product <i class="bi bi-chevron-right"></i></a>
+                        <ul class="dropdown">
+                            <li class="tour">
+                                <a href=""><i class="fa-solid fa-plane-departure"></i> Tour <i class="bi bi-caret-right"></i></a>
+                                <ul class="dropdown-tour">
+                                    <li>
+                                        <a href="tour/tour-domestic.html"><i class="fa-solid fa-suitcase-rolling"></i> Tour Domestic</a>
+                                    </li>
+                                    <li>
+                                        <a href="tour/tour-international.html"><i class="fa-solid fa-cart-flatbed-suitcase"></i> Tour International</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-kaaba"></i> Umroh Plus</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-hotel"></i> Reservasi Hotel</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-ticket"></i> Ticketing &amp; Admisson</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-notes-medical"></i> Travel Insurance</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-truck-plane"></i> Trasportation</a>
+                            </li>
+                            <li class="document">
+                                <a href=""><i class="fa-solid fa-file"></i> Travel Document <i class="bi bi-caret-right"></i></a>
+                                <ul class="dropdown-document">
+                                    <li>
+                                        <a href=""><i class="fa-brands fa-cc-visa"></i> Visa</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa-solid fa-passport"></i> Passport</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="gallery.html" class="par"><i class="bi bi-images"></i> Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #007bb7;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo mytravelink.png" class="img-fluid" width="170" alt="MyTravelink">
+              </a>
+              <button class="navbar-toggler bg-light" style="font-size: small;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-users"></i> About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-box"></i> Produk</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a style="cursor: pointer;" id="tour" class="dropdown-item"><i class="fa-solid fa-plane-departure"></i> Tour</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-kaaba"></i> Umroh Plus</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-hotel"></i> Reservasi Hotel</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-ticket"></i> Ticketing &amp; Admisson</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-notes-medical"></i> Travel Insurance</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-truck-plane"></i> Trasportation</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item"><i class="fa-solid fa-file"></i> Travel Document</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="alert-tour">
+            <button type="submit" id="close-btn-tour"><i class="bi bi-x-circle-fill"></i></button>
+
+            <div class="row mx-auto">
+                <div class="col-12">
+                    <a href="tour/tour-domestic.html">
+                        <img src="img/domestic.jpg" class="img-fluid" alt="Tour Domestic">
+                    </a>
+                </div>
+                <div class="col-12">
+                    <a href="tour/tour-international.html">
+                        <img src="img/international.jpg" class="img-fluid" alt="Tour International">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="head">
+            <div class="box position-absolute bottom-0 end-0 me-5 mb-4">
+                <img src="img/logo mytravelink.png" alt="mytravelink">
+            </div>
+        </div>
+
+        <div class="tentang container">
+            <h1>TENTANG MYTRAVELINK</h1>
+        <hr>
+        </div>
+
+        <div class="about-pertama container">
+            <div class="row mx-auto">
+                <div class="col-lg-4 col-12">
+                    <img src="img/internasional/thailand.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 col-12 text">
+                    <h2>Without Commitment, Nothing Happens</h2>
+                    <p>Adalah sebuah penyedia jasa periwisata yang melayani berbagai paket wisata, ticketing, reservasi hotel, sewa kendaraan, dokumen perjalanan, asuransi perjalanan, peralatan travel, guide, MICE dan kebutuhan travel lainnya. Dengan nama PT.Mitra Travelindo Kuantum Utama sebagai legalitas resmi dari nama Mytravelink dengan izin lengkap.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-kedua container">
+            <div class="row mx-auto">
+                <div class="col-lg-8 col-12 text">
+                    <h2>PT.Mitra Travelindo Kuantum</h2>
+                    <p>Berasal dari kata almugni yang artinya Yang Maha Mengkayakan, baik hati, akal, dan perbuatan. Harapannya semuanya yang terlibat akan menjadi kaya agar jadi bekal hingga akhir hayat dengan penuh rasa syukur dalam setiap prosesnya.</p>
+                    <p>Biru muda mengisyaratkan kepercayaan, dan tanggung jawab, juga keteduhan namun tetap cerah. Merah muda Fuscha menginsyaratkan hati yang tulus, hangat tapi ceria juga penuh perhatian.</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img src="img/internasional/mesir.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper container">
+            <header>We Organize Almost Everything</header>
+            <input type="radio" name="slider" checked id="home">
+            <input type="radio" name="slider" id="blog">
+            <nav>
+              <label for="home" class="home"><i class="fa-solid fa-eye"></i>Visi</label>
+              <label for="blog" class="blog"><i class="fa-solid fa-shuttle-space"></i>Misi</label>
+              <div class="slider"></div>
+            </nav>
+            <section>
+              <div class="content content-1">
+                <div class="title">Visi Kami</div>
+                <p>Menjadi link terpercaya &amp; profesional untuk kebutuhan Travel di setiap Negara dan destinasi wisata di seluruh Dunia.</p>
+              </div>
+              <div class="content content-2">
+                <div class="title">Misi Kami</div>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">FOR NATION</div>
+                        Menggerakan roda ekonomi negara, mengurangi pengangguran dan juga mengharumkan nama Indonesia.
+                      </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">FOR FAMILY</div>
+                        Mempererat ikatan keluarga dan lebih mengenali perkembangan dan pertumbuhan setiap bagian dalam keluarga.
+                      </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">FOR YOUR GENERATION</div>
+                        Edukasi mengambil hikmah dalam perjalanan menemukan semua hal baru, teman, rekan, tempat, budaya, dan sebagainya untuk lebih meningkatkan diri.
+                      </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                          <div class="fw-bold">FOR DESTINATION</div>
+                          Membantu mempromosikan daerah tujuan, menjalankan roda ekonomi ditempat tersebut, berinteraksi sosial mengenal satu sama lain.
+                        </div>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                          <div class="fw-bold">FOR CORPORATE</div>
+                          Mencari BIG Goals yang di inginkan oleh sebuah usaha untuk meningkatkan performa dan kinerja dengan apresiasi dan juga kepercayaan agar team tetap kompak juga solid.
+                        </div>
+                      </li>
+                  </ol>
+              </div>
+            </section>
+        </div>
+
+        <div class="feat bg-gray pt-5 pb-5">
+            <div class="container">
+              <div class="row mx-auto">
+                <div class="section-head col-sm-12">
+                  <h4><span>Our</span> Services</h4>
+                  <!-- <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's<br>standard dummy text ever since the 1500s, when an unknown book.</p> -->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="card-tour"> <span class="icon feature_box_col_one"><i class="fa-solid fa-plane-departure"></i></span>
+                    <h6>Tour &amp; Travel</h6>
+                    <p>Domestic, International, Private &amp; Group, Gathering, Backpacker, Honeymoon, Hiking &amp; Tracking, Cruising &amp; Sailing, Team Building.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="card-tour"> <span class="icon feature_box_col_two"><i class="fa-solid fa-kaaba"></i></i></span>
+                    <h6>Umroh</h6>
+                    <p>Domestic, International, Private &amp; Group.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="card-tour"> <span class="icon feature_box_col_four"><i class="fa-solid fa-calendar-days"></i></span>
+                      <h6>Event (Mice)</h6>
+                      <p>Meeting, Incentive, Conferencing, Exhibition and more.</p>
+                    </div>
+                  </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="card-tour"> <span class="icon feature_box_col_three"><i class="fa-solid fa-ticket"></i></span>
+                    <h6>Ticketing</h6>
+                    <p>Plane, Train, and more.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="card-tour"> <span class="icon feature_box_col_four"><i class="fa-solid fa-truck-plane"></i></span>
+                    <h6>Transport</h6>
+                    <p>Bus, Vas, Luxury Car, and more.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>        
+
+        <div class="portofolio my-5">
+            
+            <div class="portofolio-box">
+                <h1>PORTOFOLIO</h1>
+                <hr class="container">
+                
+                <nav>
+                    <a href="#TheInitiator">
+                        Trip Bandung &amp; Bisnis Trip<br>
+                        Ancasa Group Malaysia
+                    </a>
+                    <a href="#TheJourney">
+                        Study Banding Luar Negeri<br>
+                        Ikatan Dokter Makasar Universitas Negeri Jakarta
+                    </a>
+                    <a href="#PatronOfTheSea">
+                        Trip Outing Bromo<br>
+                        Bank Mandiri Plaza Jakarta
+                    </a>
+                    <a href="#ExtremeBodies">
+                        Trip Bandung Ciwidey<br>
+                        Bank Mutiara Sudirman
+                    </a>
+                    <a href="#DownloadVR">
+                        Trip Bandung Utara<br>
+                        Steven Family From Singapore
+                    </a>
+                    <a href="#PerformanceLibrary">
+                        Trip Outing Belitung Island<br>
+                        Puskesmas Jatiasih Bekasi
+                    </a>
+                    <a href="#Partners">
+                        Trip Outing Green Canyon<br>
+                        Mutiara Bank Jakarta &amp; Bank Mandiri Angkasa Putra
+                    </a>
+                    <a href="#Contact">
+                        Trip Honemoon Adventure Malaysia Singapore<br>
+                        Artis Mario &amp; Ratu Direksi Car Village Salon
+                    </a>
+                    <a href="#Contact">
+                        Trip Hongkong Macau<br>
+                        PT. Hasanah Prima
+                    </a>
+                    <a href="#Contact">
+                        Seminar &amp; Training<br>
+                        Mahasiswa Entrepreneur Coaching Marketing Power
+                    </a>
+                    <a href="#Contact">
+                        Maldives Trip<br>
+                        Crew Bank NISP Bandung Konsorsium
+                    </a>
+                    <a href="#Contact">
+                        Family Private Trip<br>
+                        Artis Marsha "Dunia Terbalik" Direksi, PTPN LAMPUNG &amp; Direksi Bank BNI
+                    </a>
+                    <a href="#Contact">
+                        Study Tour Malaysia<br>
+                        Universitas Negeri Jakarta
+                    </a>
+                    <a href="#Contact">
+                        Umroh Plus &amp; Reguler
+                    </a>
+                    <a href="#Contact">
+                        Trip Moto GP Sepang Malaysia
+                    </a>
+                    <a href="#Contact">
+                        Trip Event F1 Singapore
+                    </a>
+                    
+                    <!-- 
+                        repeat items to allow endless loop
+                        (hide from screen readers)
+                    -->		
+                    <a aria-hidden="true" href="#TheInitiator">
+                        Trip Bandung &amp; Bisnis Trip<br>
+                        Ancasa Group Malaysia
+                    </a>
+                    <a aria-hidden="true" href="#TheJourney">
+                        Study Banding Luar Negeri<br>
+                        Ikatan Dokter Makasar Universitas Negeri Jakarta
+                    </a>
+                    <a aria-hidden="true" href="#PatronOfTheSea">
+                        Trip Outing Bromo<br>
+                        Bank Mandiri Plaza Jakarta
+                    </a>
+                    <a aria-hidden="true" href="#ExtremeBodies">
+                        Trip Bandung Ciwidey<br>
+                        Bank Mutiara Sudirman
+                    </a>
+                    <a aria-hidden="true" href="#DownloadVR">
+                        Trip Bandung Utara<br>
+                        Steven Family From Singapore
+                    </a>
+                    <a aria-hidden="true" href="#PerformanceLibrary">
+                        Trip Outing Belitung Island<br>
+                        Puskesmas Jatiasih Bekasi
+                    </a>
+                    <a aria-hidden="true" href="#Partners">
+                        Trip Outing Green Canyon<br>
+                        Mutiara Bank Jakarta &amp; Bank Mandiri Angkasa Putra
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Trip Honemoon Adventure Malaysia Singapore<br>
+                        Artis Mario &amp; Ratu Direksi Car Village Salon
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Trip Hongkong Macau<br>
+                        PT. Hasanah Prima
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Seminar &amp; Training<br>
+                        Mahasiswa Entrepreneur Coaching Marketing Power
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Maldives Trip<br>
+                        Crew Bank NISP Bandung Konsorsium
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Family Private Trip<br>
+                        Artis Marsha "Dunia Terbalik" Direksi, PTPN LAMPUNG &amp; Direksi Bank BNI
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Study Tour Malaysia<br>
+                        Universitas Negeri Jakarta
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Umroh Plus &amp; Reguler
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Trip Moto GP Sepang Malaysia
+                    </a>
+                    <a aria-hidden="true" href="#Contact">
+                        Trip Event F1 Singapore
+                    </a>
+                </nav>
+            </div >
+
+        </div>
+
+        <div class="partners container">
+            <div class="text">
+                <h1>Our Clients</h1>
+                <hr>
+            </div>
+            <div id="logo-grid">
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/adobe.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/bootstrapstudio.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/canva.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/cloudflare.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/coreldraw.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/cpanel.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/envato.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/figma.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/github.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/godaddy.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/linux.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/vscode.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/windows.png" />
+                    </a>
+                </div>
+                <div class="partner-logo">
+                    <a href="https://www.bayer.com" target="_blank">
+                        <img src="img/partner/wordpress.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mainfooter" role="contentinfo">
+            <div class="footer-middle">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Contact Us</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#"><i class="bi bi-telephone"></i> 087827707222</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-envelope"></i> mytravelink.id@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-geo-alt"></i> Jl. Pamanukan No.12, Antapani Kulon, Kec. Antapani, Kota Bandung - Jawa Barat 40291</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Popular Explore</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Bali</a></li>
+                      <li><a href="#">Lombok</a></li>
+                      <li><a href="#">Sumba</a></li>
+                      <li><a href="#">Japan</a></li>
+                      <li><a href="#">Turki</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Useful</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Gallery</a></li>
+                      <li><a href="#">Blogs</a></li>
+                    </ul>
+                  </div>
+                </div>
+                  <div class="col-sm-6 col-lg-3 mb-4">
+                      <h4>Follow Us</h4>
+                      <ul class="social-network social-circle">
+                       <li><a target="_blank" href="https://id-id.facebook.com/Mytravelink.indonesia/" class="icoFacebook" title="Mytravelink Indonesia"><i class="fa fa-facebook"></i></a></li>
+                       <li><a target="_blank" href="https://www.tiktok.com/@mytravelink" class="icoTiktok" title="@mytravelink"><i class="fa-brands fa-tiktok"></i></a></li>
+                       <li><a target="_blank" href="https://www.instagram.com/mytravelink/" class="icoInstagram" title="mytravelink"><i class="fa-brands fa-instagram"></i></a></li>
+                       <li><a target="_blank" href="https://www.youtube.com/channel/UC_UwHs4YcOSPy9aofhBcuVg" class="icoYoutube" title="mytravelink"><i class="fa-brands fa-youtube"></i></a></li>
+                      </ul>				
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 copy">
+                      <p class="text-center">&copy; Copyright 2022 - MyTravelink. All rights reserved.</p>
+                  </div>
+              </div>
+          
+          
+            </div>
+            </div>
+        </footer>
+
+        <div class="alert-wa">
+            <div class="atas">
+                <span class="close"><i class="bi bi-x-circle"></i></span>
+
+                <img src="img/cs.png" class="img-fluid" alt="">
+                <p>Dengan senang hati membantu Anda. Bila ada pertanyaan jangan ragu untuk bertanya kepada Kami. Klik di bawah ini untuk memulai chat</p>
+            </div>
+            <div class="bawah row mx-auto">
+                <div class="col-12 cs-1">
+                    <img src="img/whatsapp.png" class="img-fluid" alt="">
+                    <div class="kontak">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=6287827707222&text=Hallo%20admin%20mytravelink,%20saya%20ingin%20bertanya">
+                            <p>Admin MyTravelink</p>
+                            <p>Online <i class="bi bi-record-fill"></i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- Bootstrap Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Custom js -->
+<script src="script.js"></script>
+
+<!-- LOADING -->
+<script>
+    $(window).on("load", function(){
+        $(".page-bg").delay(500).fadeOut("slow");
+        $(".preloader").delay(500).fadeOut("slow");
+    });
+</script>
+
+<!-- TOOLTIP -->
+<script>
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+
+</body>
+</html>

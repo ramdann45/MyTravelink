@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.core {
+    height: fit-content;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+
+.core .row {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+}
+
+.carousel-inner {
+    height: 35vh;
+    overflow: hidden;
+    margin-bottom: 2vh;
+}
+
+.box-form {
+    background-color: rgba(11, 127, 171, .4);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* KETENTUAN */
+.main .ketentuan {
+    height: fit-content;
+    width: 100%;
+    margin: 16vh auto;
+}
+
+.grid {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.gc {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: -0.25em;
+    min-height: 1px;
+    padding-left: 40px;
+    vertical-align: top;
+}
+
+.gc--1-of-3 {
+    width: 33.33333%;
+}
+
+.gc--2-of-3 {
+    width: 66.66666%;
+}
+
+.naccs {
+    position: relative;
+}
+
+.naccs .menu div {
+    padding: 15px 20px 15px 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: #007bb7;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    font-weight: 700;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.naccs .menu div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.naccs .menu div span.light {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    background-color: #303f9f;
+    border-radius: 100%;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.naccs .menu div.active span.light {
+    background-color: #fbc02d;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    top: 0;
+    border-radius: 0;
+}
+
+.naccs .menu div.active {
+    color: #fbc02d;
+    padding: 15px 20px 15px 20px;
+}
+
+ul.nacc {
+    position: relative;
+    height: 0px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+ul.nacc li {
+    opacity: 0;
+    transform: translateX(50px);
+    position: absolute;
+    list-style: none;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+ul.nacc li.active {
+    transition-delay: 0.3s;
+    z-index: 2;
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+ul.nacc li p {
+    margin: 0;
+    text-align: justify;
+}
+
+/* ACCORDION */
+.accordion {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .accordion-header,
+  .accordion-body {
+    background: white;
+  }
+  
+  .accordion-header {
+    padding: 1.5em 1.5em;
+    background: #007bb7;
+    color: white;
+    cursor: pointer;
+    font-size: .7em;
+    letter-spacing: .1em;
+    transition: all .3s;
+    text-transform: uppercase;
+  }
+  
+  .accordion__item .accordion__item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  
+  .accordion-header:hover {
+    background: #2D3D99;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .accordion-body {
+    background: #fff;
+    color: #353535;
+    display: none;
+  }
+  
+  .accordion-body__contents {
+    font-size: .85em;
+  }
+  
+  .accordion__item.active:last-child .accordion-header {
+    border-radius: none;
+  }
+  
+  .accordion:first-child > .accordion__item > .accordion-header {
+    border-bottom: 1px solid transparent;
+  }
+  
+  .accordion__item > .accordion-header:after {
+    content: "+";
+    font-family: IonIcons;
+    font-size: 1.2em;
+    float: right;
+    position: relative;
+    top: -2px;
+    transition: .3s all;
+    transform: rotate(0deg);
+  }
+  
+  .accordion__item.active > .accordion-header:after {
+    transform: rotate(-45deg);
+  }
+  
+  .accordion__item.active .accordion-header {
+    background: #007bb7;
+  }
+  
+  .accordion__item .accordion__item .accordion-header {
+    background: #f1f1f1;
+    color: #353535;
+  }
+
+  /* accordion mobile */
+  #acc-mobile {
+    display: none;
+  }
+
+@media(max-width: 991px) {
+    .core {
+        height: fit-content;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .carousel-inner {
+        height: 23vh;
+    }
+
+    .core .row {
+        margin: 10vh auto;
+    }
+
+    .core .row .col-12 h1 {
+        font-size: 1.5rem
+    }
+
+    .box-form {
+        margin: 3vh 0;
+    }
+
+    /* ketentuan */
+    .naccs {
+        display: none;
+    }
+
+    /* accordion mobile */
+    .main .ketentuan {
+        margin: 1vh 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #acc-mobile {
+        display: inline-block;
+        width: 97%;
+    }
+}
